@@ -3,4 +3,7 @@
 .section-info img{
  width: 200px;
 }
-
+.section-info p {
+    font-size: 18px;
+  }
+  

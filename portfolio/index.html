@@ -4,105 +4,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Nemo Muller</title>
 </head>
 <body>
     <div class="main">
         <header>
-            <div class="title-portfolio">
-                <h1>Némo Muller</h1>
-            </div>
-            <nav>
+            <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+            <li><a href="index.html">Acceuil</a></li>
+            <li class="divider"></li>
+            <li><a href="àpropos.html">A Propos</a></li>
+            <li class="divider"></li>
+            <li><a href="travaux.html">Travaux</a></li>
+            <li class="divider"></li>
+            <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <nav class="cyan darken-4">
                 <ul>
-                    <li><a href="">Accueil</a></li>
-                    <li><a href="">Projet</a></li>
-                    <li><a href="">Formum</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">information<i class="material-icons right">apps</i></a></li>
                 </ul>
 
             </nav>
         </header>
 
-        <div class="section-info">
-            <div class="containers center-align">
-                <img class="circle responsive-img" src="img/R.jpg" alt="">
-                <h2>lorem</h2>
-                <p class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente at error consectetur? Earum recusandae tempore ut est consectetur eveniet doloribus fuga, reprehenderit qui voluptatum id vel possimus excepturi exercitationem? Libero?</p>
+        <div class="parallax-container center-align valign-wrapper" style="height: 500px;">
+            <div class="parallax responsive-img"><img src="img/paralaximg.jpg"></div>
+            <div class="section-info container">
+                    <h2 class="white-text">Bonjour et bienvenue sur le portfolio de </h2>
+                    <h1 class="white-text">Némo MULLER !</h1>
+                    <p class="container white-text">Je suis MULLER Némo, un jeune élève passionné par le monde de la technologie.
+
+                        <br><br>À travers ce portfolio, je souhaite vous présenter un aperçu de mes compétences, de mes projets réalisés et de ma vision en tant qu'aspirant développeur.
             </div>
-            
         </div>
         
+        <div class="section-projet">
+            <div class="row container valign-wrapper" style="height: 700px;">
+
+                <div class="col s12 m6 l4">
+                    <div class="card-panel hoverable card">
+                        <div class="card-image">
+                            <img class="responsive-img" src="img/image000000.JPG">
+                            <span class="card-title">A propos</span>
+                        </div>
+                        <div class="card-action">
+                            <a href="àpropos.html">Cliquez pour en savoir un peu plus sur ma personne !</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s7 psuh-s12 center-align "><span class="flow-text"><h2>À propos de moi</h2>
+
+                    Dans cette section, je vous dévoile une facette plus personnelle de ma vie.<br><br>De mes compétences techniques à mes passions hors écran, je souhaite vous offrir une image complète de qui je suis, tant comme développeur que comme individu.<br><br> Je vous invite à plonger dans mon univers et à découvrir les éléments qui façonnent ma vision du monde numérique.</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax responsive-img height"><img src="img/paralaximg.jpg"></div>
+        </div>
+
+        <div class="section-projet">
+            <div class="row container valign-wrapper" style="height: 530px;">
+                <div class="col s7 psuh-s12 center-align "><span class="flow-text"><h2>Mes travaux précédent</h2>Au fil de ma formation et de mes expériences en informatique, j'ai eu l'opportunité de travailler sur divers projets, reflétant à la fois ma croissance technique et ma passion pour la résolution de problèmes.<br><br> Cette section est dédiée à vous présenter un échantillon de ces travaux, chaque projet illustré ici témoigne de mon engagement, de mon souci du détail et de ma capacité à transformer une idée en une solution informatique fonctionnelle.</span>
+                </div>
+                <div class="col s12 m6 l4 right">
+                    <div class="card-panel hoverable card">
+                        <div class="card-image">
+                            <img class="responsive-img" src="img/DALL·E 2023-08-20 14.54.18 - homme qui code sur son pc type lofi.png">
+                            <span class="card-title">Travaux et expériences professionnelle</span>
+                        </div>
+                        <div class="card-action">
+                            <a href="travaux.html">Cliquez pour avoir un aperçue de mes travaux précédent !</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="parallax-container">
             <div class="parallax responsive-img"><img src="img/paralaximg.jpg"></div>
         </div>
 
         <div class="section-projet">
-            <div class="row container">
-                <div class="col s12 m6 l6">
-                  <div class="card">
+            <div class="row container valign-wrapper" style="height: 690px;">
+                <div class="col s12 m6 l4">
+                  <div class="card-panel hoverable card">
                     <div class="card-image">
-                      <img class="responsive-img" src="img/R.jpg">
-                      <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
+                      <img class="responsive-img" src="img/DALL·E 2023-08-20 14.53.12 - cabine telephonique avec écris dessus _téléphone_ avec une personne dedans qui telephone type lofi .png">
+                      <span class="card-title">Contact</span>
                     </div>
                     <div class="card-action">
-                      <a href="#">This is a link</a>
+                      <a href="contact.html">Cliquez pour avoir accés à mes différents contacts !</a>
                     </div>
                   </div>
                 </div>
 
-                <div class="col s12 m6 l6">
-                  <div class="card">
-                    <div class="card-image">
-                      <img class="responsive-img" src="img/R.jpg">
-                      <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#">This is a link</a>
-                    </div>
-                  </div>
+                <div class="col s7 psuh-s12 center-align "><span class="flow-text"><h2>La communication est au cœur de tout projet réussi.</h2> Dans cette section, vous trouverez tous les moyens pour entrer en contact avec moi.<br><br> Que vous souhaitiez discuter d'une opportunité professionnelle, partager des feedbacks sur mon travail ou simplement échanger sur le monde de la technologie, je suis toujours ravi d'entendre de nouvelles voix.<br><br> Utilisez les coordonnées fournies ici pour m'envoyer un message, et je m'efforcerai de vous répondre dans les plus brefs délais !</span>
                 </div>
 
-                <div class="col s12 m6 l6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="responsive-img" src="img/R.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-
-                    <div class="col s12 m6 l6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="responsive-img" src="img/R.jpg">
-                                <span class="card-title">Card Title</span>
-                            </div>
-                            <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">This is a link</a>
-                            </div>
-                        </div>
-                    </div>
             </div>
-
         </div>
 
         <div class="parallax-container">
@@ -110,12 +113,7 @@
         </div>
 
         <div class="section-contact">
-
         </div>
-
-        <div class="parallax-container">
-            <div class="parallax responsive-img"><img src="img/paralaximg.jpg"></div>
-          </div>
 
 
     </div>
