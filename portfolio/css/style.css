@@ -1,9 +1,15 @@
-/* section-info */
-
 .section-info img{
  width: 200px;
 }
 .section-info p {
     font-size: 18px;
   }
-  
+
+.material-icons.right {
+    margin-top: 5px;
+}
+
+.copyright{
+  margin-top: 250px; 
+}
+
