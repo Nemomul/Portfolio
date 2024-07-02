@@ -3,7 +3,7 @@
 Ce dépôt contient mon portfolio créé au cours de ma première année à Ynov dans le programme de B1 en Informatique. Le projet démontre mon parcours d'apprentissage et présente divers projets sur lesquels j'ai travaillé.
 
 ## Structure du Projet
-.
+````
 ├── css/
 │ ├── materialize.css 
 │ ├── style.css
@@ -20,7 +20,7 @@ Ce dépôt contient mon portfolio créé au cours de ma première année à Ynov
 ├── travaux.html
 ├── àpropos.html
 └── README.md
-
+````
 
 ## Aperçu
 
